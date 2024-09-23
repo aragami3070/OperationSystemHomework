@@ -1,4 +1,4 @@
-\documentclass{SCWorks}
+\documentclass[bachelor, och, referat, times]{SCWorks}
 
 \input{preamble.sty}
 \usepackage{forloop}
@@ -6,22 +6,48 @@
 
 \begin{document}
 
-
-\vspace*{8cm}
-
-\begin{center}
-    % \scalebox{3}{\textbf{ПИздец}} 
-
-    \vspace{0.5cm}
+    \chair{информатики и программирования}
+    % Тема работы
+    \title{Домашнее задание 0 по Операционным системам}
     
-    \scalebox{2}{\textbf{Дз по Операционным системам по Ubuntu }} 
-\end{center}
+    % Курс
+    \course{2}
+    
+    % Группа
+    \group{251}
+    
+    % Факультет (в родительном падеже) (по умолчанию "факультета КНиИТ")
+    \department{факультета компьютерных наук и информационных технологий}
+    
+    % Специальность/направление код - наименование
+    
+    \napravlenie{09.03.04 "--- Программная инженерия}
+    
+    % Для студентки. Для работы студента следующая команда не нужна.
+    \studenttitle{студента}
+    
+    % Фамилия, имя, отчество в родительном падеже
+    \author{Смирнова Егора Ильича}
+    
+    \date{2024}
+    
+    \maketitle
+% \vspace*{8cm}
+%
+% \begin{center}
+%     % \scalebox{3}{\textbf{ПИздец}} 
+%
+%     \vspace{0.5cm}
+%    
+%     \scalebox{2}{\textbf{Домашнее задание 1 по БЖД 3 семестр}} 
+% \end{center}
+%
 
 
 \tableofcontents
 
 % Оптимизация от Дани
-\foreach \n in {1,...,2}{
+\foreach \n in {1,...,4}{
     \input{tasks/task \n}
 }
 
