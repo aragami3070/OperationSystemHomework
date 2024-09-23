@@ -1,0 +1,29 @@
+\documentclass{SCWorks}
+
+\input{preamble.sty}
+\usepackage{forloop}
+\usepackage{pgffor}
+
+\begin{document}
+
+
+\vspace*{8cm}
+
+\begin{center}
+    % \scalebox{3}{\textbf{ПИздец}} 
+
+    \vspace{0.5cm}
+    
+    \scalebox{2}{\textbf{Дз по Операционным системам по Ubuntu }} 
+\end{center}
+
+
+\tableofcontents
+
+% Оптимизация от Дани
+\foreach \n in {1,...,2}{
+    \input{tasks/task \n}
+}
+
+
+\end{document}
