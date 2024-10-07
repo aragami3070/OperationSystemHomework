@@ -25,6 +25,7 @@
   )
 )
 
+#set image(height: 200pt)
 
 #include "./sections/section1.typ"
 
@@ -39,3 +40,5 @@
 #include "./sections/section6.typ"
 
 #include "./sections/section7.typ"
+
+#include "./sections/section8.typ"
