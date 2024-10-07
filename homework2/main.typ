@@ -1,7 +1,4 @@
 #import "conf.typ" : conf
-// #import "@preview/cetz:0.2.2"
-#import "@preview/plotst:0.2.0": *
-#import "@preview/fletcher:0.4.5" as fletcher: diagram, node, edge
 
 #show: conf.with(
   title: [Отчет 2 assembler],
@@ -31,3 +28,14 @@
 
 #include "./sections/section1.typ"
 
+#include "./sections/section2.typ"
+
+#include "./sections/section3.typ"
+
+#include "./sections/section4.typ"
+
+#include "./sections/section5.typ"
+
+#include "./sections/section6.typ"
+
+#include "./sections/section7.typ"
