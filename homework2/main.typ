@@ -38,3 +38,5 @@
 #include "sections/section5.typ"
 
 #include "sections/section6.typ"
+
+#include "sections/section7.typ"
