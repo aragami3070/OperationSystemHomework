@@ -1,7 +1,7 @@
 #import "conf.typ" : conf
 
 #show: conf.with(
-  title: [Отчет 2 assembler],
+  title: [Отчет 4],
   type: "referat",
   info: (
       author: (
@@ -32,3 +32,5 @@
 #include "sections/section2.typ"
 
 #include "sections/section3.typ"
+
+#include "sections/section4.typ"
