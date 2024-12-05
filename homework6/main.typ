@@ -32,3 +32,5 @@
 #include "sections/section2.typ"
 
 #include "sections/section3.typ"
+
+#include "sections/section3.typ"
