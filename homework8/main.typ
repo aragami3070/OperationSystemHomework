@@ -1,7 +1,7 @@
 #import "conf.typ" : conf
 
 #show: conf.with(
-  title: [Отчет 3],
+  title: [Отчет 8 ОС],
   type: "referat",
   info: (
       author: (
@@ -28,3 +28,5 @@
 #set image(height: 200pt)
 
 #include "sections/section1.typ"
+
+#include "sections/section2.typ"
