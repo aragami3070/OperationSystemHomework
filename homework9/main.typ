@@ -1,7 +1,7 @@
 #import "conf.typ" : conf
 
 #show: conf.with(
-  title: [Отчет 3],
+  title: [Отчет 9],
   type: "referat",
   info: (
       author: (
