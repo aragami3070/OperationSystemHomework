@@ -25,7 +25,7 @@
   )
 )
 
-#set image(height: 200pt)
+// #set image(height: 200pt)
 
 #include "sections/section1.typ"
 
