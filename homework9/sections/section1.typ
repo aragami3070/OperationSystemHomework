@@ -6,8 +6,6 @@
     #image("../image/img2.png")
     #image("../image/img3.png")
 4. Изучение работы службы очереди сообщений (проверка работы службы сообщений).
-    
-    *Microsoft ПИДОРАСЫ*
-    // #image("../image/img4.png")
+    #image("../image/img4.png")
 5. Изучение работы службы Windows Media.
     #image("../image/img5.png")
